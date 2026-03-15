@@ -1,21 +1,54 @@
 body {
-    margin: 0px 0px 8px;
+    background-color: rgb(21, 32, 53);
+}
+#header-container {
+    padding: 10px;
+    position: fixed;
+    width: 100vw;
+    height: 5%;
+    background-color: rgb(21, 45, 73);
 }
 
-#myHeader {
+#nav-container {
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(15, 100, 228);
-}
-#myHeader ul{
-    list-style: none;
-    padding: 20px;
+    padding: 5px 15px;
+    width: 35%;
+    margin-left: 65%;
+    margin-right: auto;
 }
 
-#myHeader a {
-    color: black;
-    text-decoration: none;
-    padding: 20px;
-    margin: 20px;
-    justify-content: flex-end;
+#nav-about-me {
+    margin: 0 160% ;
 }
+
+#social-links {
+    display: flex;
+    justify-content: center;
+}
+
+nav.links a {
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.main-container {
+  padding: 5%;
+}
+
+.navigation {
+    display: flex;
+    margin: 0 20px;
+    padding: 5px 15px;
+}
+
+ul.navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+.footer {
+    background-color:  rgb(21, 45, 73);
+}
+
