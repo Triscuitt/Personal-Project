@@ -1,25 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&family=Rosarivo:ital@0;1&family=Rye&display=swap");
 body {
     background-color: rgb(21, 32, 53);
 }
 #header-container {
-    padding: 10px;
-    position: fixed;
-    width: 100vw;
-    height: 5%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 0 ;
+    width: 100%;
+    height: 35px;
     background-color: rgb(21, 45, 73);
 }
 
 #nav-container {
     display: flex;
-    justify-content: flex-end;
-    padding: 5px 15px;
-    width: 35%;
-    margin-left: 65%;
-    margin-right: auto;
-}
-
-#nav-about-me {
-    margin: 0 160% ;
+    margin-right: 40px;
 }
 
 #social-links {
@@ -32,6 +26,10 @@ nav.links a {
     padding: 0 15px;
 }
 
+li a:hover {
+    background-color: rgb(19, 10, 70);
+}
+
 .main-container {
   padding: 5%;
 }
@@ -39,16 +37,17 @@ nav.links a {
 .navigation {
     display: flex;
     margin: 0 20px;
-    padding: 5px 15px;
+    padding: 15px 25px;
 }
 
 ul.navigation a {
     text-decoration: none;
     color: white;
     padding: 0 15px;
+    font-size: larger;
+    font-family: 'Rosarivo';
 }
 
 .footer {
     background-color:  rgb(21, 45, 73);
 }
-
