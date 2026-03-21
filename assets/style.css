@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Press+Start+2P&family=Rosarivo:ital@0;1&display=swap');
+
+body {
+    background-color: rgb(21, 32, 53);
+}
+#header-container {
+    background-color: rgb(21, 45, 73);
+    padding: 5px 0;
+}
+
+#main-container {
+    height: 100vh;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#social-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#social-links a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    height: 50px; 
+}
+
+#social-links span {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#social-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+#profile-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#image-container img {
+    margin-top: 18%;
+    margin-right: 5%;
+}
+
+#myProfile {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#myProfile p {
+    padding: 5px 0;
+}
+
+#introduction {
+    font-family: 'Press Start 2p', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#occupation {
+    font-family: 'Electrolize', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: aqua;
+}
+
+#message {
+    font-family: 'Rosarivo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#title {
+    font-family: 'Rosarivo', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+li a:hover {
+    background-color: rgb(16, 7, 65);
+}
+
+.navigation {
+    display: flex;
+    margin: 0 20px;
+    padding: 15px 25px;
+}
+
+footer {
+    background-color:  rgb(21, 45, 73);
+}
