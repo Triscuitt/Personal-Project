@@ -57,12 +57,17 @@ body {
 
 #profile-container {
     display: flex;
-    justify-content: space-evenly;
 }
 
 #image-container img {
+    display: flex;
     margin-top: 18%;
-    margin-right: 5%;
+    margin-right: 3%;
+    width: 80%;
+}
+
+#image-container {
+    display: flex;
 }
 
 #myProfile {
@@ -73,6 +78,7 @@ body {
 #myProfile p {
     padding: 5px 0;
 }
+
 
 #introduction {
     font-family: 'Press Start 2p', sans-serif;
