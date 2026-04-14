@@ -56,7 +56,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin-top: 100px;
-    border: 2px black solid;
 }
 
 #profile-container {
@@ -103,11 +102,41 @@ body {
     font-size: 20px;
 }
 
-#title {
-    font-family: 'Rosarivo', sans-serif;
-    font-weight: 400;
+.title {
+    font-family: 'Press Start 2p', sans-serif;
     font-style: normal;
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 10px;
+    font-family: 'Rosarivo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#service-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #findme {
