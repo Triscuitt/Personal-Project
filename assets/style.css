@@ -4,14 +4,50 @@ body {
     background-color: rgb(21, 32, 53);
 }
 
+/* Utilities */
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.title {
+    font-family: 'Press Start 2p', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 10px;
+    font-family: 'Rosarivo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: rgb(16, 7, 65);
+}
+
+.navigation {
+    display: flex;
+    margin: 0 20px;
+    padding: 15px 25px;
+}
+
+/* Header Container */
+
 #header-container {
     background-color: rgb(21, 45, 73);
     padding: 5px 0;
 }
 
-#main-container {
-    height: 100vh;
-}
+/* Nav Container  */
 
 #nav-container {
     display: flex;
@@ -20,10 +56,6 @@ body {
     padding: 0 50px;
 }
 
-.navigation {
-    display: flex;
-    list-style: none;
-}
 
 .navigation li a {
     text-decoration: none;
@@ -31,48 +63,13 @@ body {
     border-radius: 10px;
 }
 
-#social-links {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#social-links a {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    padding: 10px 30px;
-    height: 30px; 
-}
-
-#social-links span {
-   margin-left: 10px;
-   margin-top: 10px;
-}
-
-#social-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 100px;
-}
+/* Profile Container  */
 
 #profile-container {
     display: flex;
     justify-content: space-evenly;
 }
 
-#image-container img {
-    width: 50%;
-    aspect-ratio: 1;
-    border-radius: 50%;
-}
-
-#image-container {
-    margin-top: 100px;
-}
- 
 #myProfile {
     display: flex;
     flex-direction: column;
@@ -102,24 +99,17 @@ body {
     font-size: 20px;
 }
 
-.title {
-    font-family: 'Press Start 2p', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
+#image-container {
+    margin-top: 100px;
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 50px;
-    gap: 10px;
-    font-family: 'Rosarivo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+#image-container img {
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
 }
+
+/* Service Container  */
 
 #service-container {
     display: flex;
@@ -127,16 +117,43 @@ body {
     flex-direction: column;
 }
 
+/* About Container  */
+
 #about-container {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+/* Skills Container  */
+
+#skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Portfolio Container  */
+
 #portfolio-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Navigation Links  */
+
+#main-container {
+    height: 100vh;
+}
+
+#social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
 
 #findme {
@@ -147,21 +164,25 @@ body {
     color: white;
 }
 
-#skills-container {
+#social-links {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
-li a:hover {
-    background-color: rgb(16, 7, 65);
+#social-links a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    height: 30px; 
 }
 
-.navigation {
-    display: flex;
-    margin: 0 20px;
-    padding: 15px 25px;
+#social-links span {
+   margin-left: 10px;
+   margin-top: 10px;
 }
+
+/* Footer  */
 
 footer {
     background-color:  rgb(21, 45, 73);
